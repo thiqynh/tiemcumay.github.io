@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.ten{
+    margin-top:20px;
+    color: red;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height:auto;
+}
+.bn1>img{
+    padding-top: 5%;
+    height: 80%;
+}
+.sanpham{
+    width: 23%;
+    box-shadow: 0 0 3px #FF6363;
+    border-radius: 3% 3% 3% 3%;
+    float: left;
+    margin: 10px;
+    box-shadow: 0 0 10px #FF5C8D;
+}
+.hinhanh{
+    width: 100%;
+    height: 30%;
+    border-radius: 3% 3% 3% 3%;
+    box-shadow: 0 0 5px #9B0000;
+}
+.anh11{
+    float: right;
+    width: 25%;
+    padding: 5px;
+}
+.anh11>a:hover{
+    border: 1px solid black;
+}
+.sanpham>img{
+    width: 50%;
+    height: 50px; 
+}
+.sanpham>.anh11>a>.anh111{
+    width: 100%;
+    border: 1px solid pink;
+    border-radius: 40% 40% 40% 40%;
+}
+.sanpham>.anh12>p{
+    font-variant: small-caps;
+    color: red;
+    font-size: larger;
+}
+.sanpham>a>.hinhanh:hover{
+    transform: scale(0.8);
+}
+.g1{
+    margin-top: 15px;
+    margin-left: 150px;
+    width: 80%;
+    height: 50%;
+    text-align: center;
+}
+/*css cho cho mũi tên*/
+.backtotop{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+}
+.backtotop a{
+    padding: 15px;
+    text-align: center;
+    border-radius: 50%;
+    font-size:20px;
+    color:rgb(236, 230, 223);
+    background:rgb(206, 69, 27) ;
+}

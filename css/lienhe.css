@@ -1,0 +1,64 @@
+
+.banner{
+    width:100%;
+    margin-top: 110px;  
+}
+
+.banner img{
+    max-width: 100%;
+}
+/* css phần heading của trang web*/
+.heading{
+    font-size: 28px;
+    text-align: center;
+    margin: 20px 0;
+}
+.product p{
+    padding: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.product img{
+    padding: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.giuatrang{
+    width: 80%;
+    margin: 0 auto;
+    padding: 4%;
+    background-color:#FFBBBB ;
+}
+.giuatrang>p{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color:#2666CF;
+   padding-bottom: 30px;
+
+}
+input[type=text] {
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+    outline:none;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:hover{
+    box-shadow: 0 0 5px #DA1212;
+}
+.b102{
+    font-variant: small-caps;
+    background-color:#FFCBCB;
+    
+}
+form input[type="text"]:focus{
+  width:100%;
+  
+}
+textarea{
+    width: 100%;
+}
+textarea:hover{
+    box-shadow: 0 0 7px #DA1212;
+}
+

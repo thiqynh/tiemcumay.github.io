@@ -1,0 +1,108 @@
+#formfull{
+    width: 100%;
+    height: 100%;
+    background-color: #f3f3f3;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#formfull form{
+    width: 400px;
+    height: 560px;
+    border: 1px solid gray;
+}
+
+#logo__sony{
+    text-align: center;
+    background-color: white;
+}
+
+#logo__sony img{
+    height: 56px;
+}
+
+#logo__ps>img{
+    width: 100%;
+    
+}
+#logo__ps img{
+    height: 95px;
+}
+.content-form{
+    height: calc(100% - 56px - 96px);
+    background-color:#FFBBBB;
+    padding-top: 20px;
+    position: relative;
+}
+.content-form #title{
+    width: 300px;
+    margin-left: 33px;
+}
+.content-form #title p{
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 300px;
+}
+.content-form #title p a{
+    text-decoration: none;
+}
+.content-form #form-input{
+    width: 304px;
+    margin:0 auto;
+    margin-top:25px;
+}
+/* form input */
+#form-input__email{
+    width: 100%;
+    height: 36px;
+    padding: 0 13px;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border: 1px solid #CAF0F8;
+}
+#form-input__next{
+    width: 100%;
+    height: 36px;
+    padding: 0 13px;
+    outline: none;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    border: none;
+    background-color: #3966d5;
+    color: #90E0EF;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.form-input__error{
+    display: block;
+    text-decoration: none;
+    color: #3e66d5;
+    margin-bottom: 25px;
+}
+#form-input__new{
+    width: 100%;
+    height: 36px;
+    padding: 0 13px;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border: 1px solid #90E0EF;
+    background-color: white;
+    cursor: pointer;
+}
+
+.form-input__help{
+    position:absolute;
+    color:black;
+    text-decoration: none;
+    bottom: 10px;
+    left: 50%;
+    font-size: 13px;
+    transform: translateX(-50%);
+}
+.form-input__help:hover{
+    color: #3e66d5;
+}

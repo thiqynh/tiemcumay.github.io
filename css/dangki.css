@@ -1,0 +1,129 @@
+img{
+    margin-left: 40px;
+    width: 95%;
+    height: auto;
+}
+.bn3>img{
+    padding-top: 5%;
+}
+/* css phần heading của trang web*/
+.heading{
+    font-size: 28px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* css login */
+.login-form{
+    margin:0 auto;
+    width: 100%;
+    text-align: center;
+}
+.login-form{
+    display: flex;
+    /* dàn các thẻ con thành hàng dọc */
+    flex-direction: column;
+    
+}
+/* css cho cái phần khung điền */
+.login-form form input{
+    padding: 10px 15px;
+    border:1px solid rgb(185, 173, 173);
+    font-family:'Quicksand',sans-serif;
+    outline:none;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition:all 0.3 linear;
+    font-size: 16px;
+}
+.login-form form input:focus{
+    border:1px solid rgb(13, 117, 103);
+}
+/* css cho cái nút đăng kí */
+.login-form form button{
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    /* đường viền */
+    border:1px solid rgb(13, 117, 103);
+    /* kích cỡ chữ */
+    font-size: 18px;
+    /* cho chữ đậm */
+    font-weight: bold;
+    color:rgb(13, 117, 103);
+}
+.login-form form button:hover{
+    background:rgb(13, 117, 103);
+    color:white;
+    transition:all 0.4 linear;
+}
+.link-login{
+    text-decoration: none;
+    color:black;
+    margin:30px 0;
+    display: block;
+}
+.link-login:hover{
+    color:rgb(13, 117, 103);
+    transition:all 0.4 linear;
+}
+
+/*css cho san pham footer*/
+footer{
+    width: 100%;
+    background:rgb(43, 138, 125);
+    color:rgb(255, 255, 255);
+}
+footer .footer-item{
+   text-align: center;
+    display:inline-block;
+    margin-bottom: 30px;
+    width: 30%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+footer .footer-item h3{
+      margin: 30px 0;
+}
+
+footer.link a{
+    display: block;
+    text-align: center;
+    margin: 3px 0;  
+}
+
+footer .footer-item:hover{
+    color: black;
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+footer .footer-item:hover img{
+    box-shadow:rgb(255, 255, 255) 0px 5px 8px;
+    transition:all 0.3 linear
+}
+
+.tacgia{
+    background:wheat;
+    color: rgb(34, 17, 17);
+    text-align: center;
+    padding: 10px;
+}
+.tacgia{
+    padding-top: 10px;
+}
+
+
+.backtotop{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+}
+
+.backtotop a{
+    padding: 15px;
+    text-align: center;
+    border-radius: 50%;
+    font-size:20px;
+    color:rgb(236, 230, 223);
+    background:rgb(206, 69, 27) ;
+}
